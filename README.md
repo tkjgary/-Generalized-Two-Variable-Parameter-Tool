@@ -93,7 +93,7 @@ The mean is a measure of central tendency, calculated as the average of all valu
 The formula for the mean is:
 
 $$  
-Mean = (Σ xᵢ) / N
+Mean = \frac{Σ xᵢ}{N}
 $$
 
 Where:
@@ -104,9 +104,9 @@ Where:
 ### 2. **Standard Deviation (SD)**  
 Standard deviation is a measure of data dispersion, which quantifies the amount of variation in a dataset.  
 The formula for standard deviation is:  
-$$
-SD = sqrt[(Σ (xᵢ - x̄)²) / N]
-$$
+
+$$SD = \sqrt{\frac{Σ (xᵢ - x̄)²}{N}}$$
+
 
 Where:
 - xᵢ: Individual data points
@@ -117,9 +117,10 @@ Where:
 ### 3. **Percent Difference**  
 Percent difference is used to compare the consistency between measured and calculated datasets.  
 The formula for percent difference is:  
-$$
-Percent Difference = |(Measured - Calculated) / Calculated| × 100
-$$
+
+
+$$Percent Difference = \frac{Measured - Calculated}{Calculated} × 100$$
+
 
 Where:
 - Measured: Mean or standard deviation of the measured dataset
