@@ -28,13 +28,13 @@ Below is the table of contents for navigating the repository.
 
 ### Steps to Compile and Execute
 1. **Compile the Program**:
-   Open your terminal and run the following command:  
+   - Open your terminal and run the following command:  
    ```bash
    gcc main.c -o program -lm
-   This will generate an executable file named program.
+   - This will generate an executable file named program.
 
-2. **Prepare the Input File**:
-   Create an input.txt file in the following format:
+3. **Prepare the Input File**:
+   - Create an input.txt file in the following format:
    - The first line contains the column headers for the Var2 values.
    - The second line contains the numerical values of Var2.
    - The subsequent lines contain Var1 values followed by their corresponding measurements.
@@ -46,16 +46,14 @@ Var1/Var2   1.0   2.0   3.0
 2.0         3.2   3.4   3.6
 
 3. **Run the Program**:
-Execute the compiled program.
+   - Execute the compiled program.
 
-4. **Provide Inputs**:
-The program will ask for:
-
-- Number of rows and columns in the dataset.
-- Coefficients for the user-defined equation.
-- Tolerance values for mean and standard deviation.
+5. **Provide Inputs**:
+   - The program will ask for:
+     - Number of rows and columns in the dataset.
+     - Coefficients for the user-defined equation.
+     - Tolerance values for mean and standard deviation.
 
 5. **Output**:
-
-- Results will be displayed on the terminal.
-- A detailed report will be written to result.txt.
+   - Results will be displayed on the terminal.
+   - A detailed report will be written to result.txt.
