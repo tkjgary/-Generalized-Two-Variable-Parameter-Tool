@@ -31,6 +31,7 @@ Below is the table of contents for navigating the repository.
    - Open your terminal and run the following command:  
    ```bash
    gcc main.c -o program -lm
+   ```
    - This will generate an executable file named program.
 
 3. **Prepare the Input File**:
@@ -38,12 +39,13 @@ Below is the table of contents for navigating the repository.
    - The first line contains the column headers for the Var2 values.
    - The second line contains the numerical values of Var2.
    - The subsequent lines contain Var1 values followed by their corresponding measurements.
-     
-Example:
 
-Var1/Var2   1.0   2.0   3.0
-1.0         2.1   2.3   2.5
-2.0         3.2   3.4   3.6
+     Example:
+     ```
+     Var1/Var2   1.0   2.0   3.0
+     1.0         2.1   2.3   2.5
+     2.0         3.2   3.4   3.6
+     ```
 
 3. **Run the Program**:
    - Execute the compiled program.
