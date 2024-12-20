@@ -1,6 +1,6 @@
 # GeneralizedTwoVariableParameterTool
 
-This program evaluates the consistency and accuracy of measured data compared to user-defined approximations. It supports flexible input sizes, user-defined equations, and tolerance-based validation for mean and standard deviation.
+This tool compares measured data with calculated values based on a user-defined equation. It checks the accuracy and consistency of the data by calculating the mean and standard deviation of both sets, and then compares them to the user-defined tolerances. The tool helps identify if the measurements align with the expected values within acceptable limits.
 
 ---
 
