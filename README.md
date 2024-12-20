@@ -34,9 +34,9 @@ Below is the table of contents for navigating the repository.
 
 3. **Prepare the Input File**:
    - Create an input.txt file in the following format:
-   - The first line contains the column headers for the Var2 values.
-   - The second line contains the numerical values of Var2.
-   - The subsequent lines contain Var1 values followed by their corresponding measurements.
+     - The first line contains the column headers for the Var2 values.
+     - The second line contains the numerical values of Var2.
+     - The subsequent lines contain Var1 values followed by their corresponding measurements.
 
      Example:
      ```
